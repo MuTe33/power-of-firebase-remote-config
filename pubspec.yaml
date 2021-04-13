@@ -10,6 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  firebase_core: ^0.7.0
+  firebase_remote_config: ^0.6.0
+  get_it: ^6.1.1
+  provider: ^5.0.0
 
 dev_dependencies:
   flutter_test:
