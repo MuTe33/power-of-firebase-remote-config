@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "1017563370608",
+    "project_id": "remote-config-tutorial-142dd",
+    "storage_bucket": "remote-config-tutorial-142dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017563370608:android:79c9d1654609faea8ed0b5",
+        "android_client_info": {
+          "package_name": "com.dev.remote_config_tutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017563370608-3mf7ialh83ih2hrvho5iokfhivjo21bv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp0_fWD8KclpImUEXlbYS3hby0LRxVUpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017563370608-3mf7ialh83ih2hrvho5iokfhivjo21bv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017563370608:android:6df534d3ed68f4758ed0b5",
+        "android_client_info": {
+          "package_name": "com.prod.remote_config_tutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017563370608-3mf7ialh83ih2hrvho5iokfhivjo21bv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp0_fWD8KclpImUEXlbYS3hby0LRxVUpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017563370608-3mf7ialh83ih2hrvho5iokfhivjo21bv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017563370608:android:8f6bcb72d73375128ed0b5",
+        "android_client_info": {
+          "package_name": "com.stage.remote_config_tutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017563370608-3mf7ialh83ih2hrvho5iokfhivjo21bv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp0_fWD8KclpImUEXlbYS3hby0LRxVUpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017563370608-3mf7ialh83ih2hrvho5iokfhivjo21bv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -28,9 +28,8 @@ android {
     compileSdkVersion 30
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.remoteconfig.remote_config_tutorial"
-        minSdkVersion 16
+        applicationId "com.dev.remote_config_tutorial"
+        minSdkVersion 21
         targetSdkVersion 30
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
@@ -43,8 +42,26 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+
+    flavorDimensions "flavor"
+
+    productFlavors {
+        dev {
+            dimension "flavor"
+        }
+        stage {
+            dimension "flavor"
+            applicationId "com.stage.remote_config_tutorial"
+        }
+        prod {
+            dimension "flavor"
+            applicationId "com.prod.remote_config_tutorial"
+        }
+    }
 }
 
 flutter {
     source '../..'
 }
+
+apply plugin: 'com.google.gms.google-services'
