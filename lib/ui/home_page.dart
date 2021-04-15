@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:remote_config_tutorial/get_it.dart';
+import 'package:remote_config_tutorial/get_it.dart' as globals;
 import 'package:remote_config_tutorial/ui/home_page_view_model.dart';
 import 'package:remote_config_tutorial/ui/widget/new_home_widget.dart';
 import 'package:remote_config_tutorial/ui/widget/old_home_widget.dart';
@@ -36,11 +37,11 @@ class _HomePageState extends State<HomePage> {
                 title: Text(widget.appBarTitle),
                 centerTitle: true,
               ),
-              body: Column(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              body: ListView(
                 children: [
                   _buildHomeFeature(),
                   _buildTextFormField(),
+                  _buildRestartButton(),
                 ],
               ),
             ),
@@ -68,6 +69,20 @@ class _HomePageState extends State<HomePage> {
             return 'Error: Not matching :)';
           }
         },
+      ),
+    );
+  }
+
+  Widget _buildRestartButton() {
+    return Padding(
+      padding: const EdgeInsets.only(
+        top: 50.0,
+        left: 50.0,
+        right: 50.0,
+      ),
+      child: ElevatedButton(
+        onPressed: () => globals.startApp!(),
+        child: Text('Restart'),
       ),
     );
   }

@@ -1,7 +1,7 @@
 import 'package:remote_config_tutorial/data/remote_config_repository.dart';
 
-class GetRemoteConfigValues {
-  GetRemoteConfigValues(this._remoteConfigRepository);
+class GetRemoteConfigValuesInteractor {
+  GetRemoteConfigValuesInteractor(this._remoteConfigRepository);
 
   final RemoteConfigRepository _remoteConfigRepository;
 

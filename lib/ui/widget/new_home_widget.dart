@@ -4,7 +4,16 @@ class NewHomeWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Text('NewHomeWidget'),
+      height: 250,
+      width: 250,
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          colors: [Colors.white, Colors.red],
+        ),
+      ),
+      child: Center(
+        child: Text('New HomeWidget'),
+      ),
     );
   }
 }

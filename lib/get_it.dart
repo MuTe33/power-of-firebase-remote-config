@@ -3,8 +3,11 @@ import 'package:flutter/foundation.dart';
 import 'package:get_it/get_it.dart';
 import 'package:remote_config_tutorial/data/default_remote_config_values.dart';
 import 'package:remote_config_tutorial/data/remote_config_repository.dart';
-import 'package:remote_config_tutorial/domain/get_remote_config_values.dart';
+import 'package:remote_config_tutorial/domain/get_remote_config_values_interactor.dart';
+import 'package:remote_config_tutorial/domain/name_validator_use_case.dart';
 import 'package:remote_config_tutorial/ui/home_page_view_model.dart';
+
+Function()? startApp;
 
 GetIt getIt = GetIt.instance;
 GetIt _getIt = getIt;
@@ -14,8 +17,10 @@ Future<void> resetDependencies() async {
 }
 
 void initSyncDependencies() {
-  _getIt.registerLazySingleton(() => GetRemoteConfigValues(_getIt.get()));
   _getIt.registerLazySingleton(() => RemoteConfigRepository(_getIt.get()));
+  _getIt.registerLazySingleton(
+      () => GetRemoteConfigValuesInteractor(_getIt.get()));
+  _getIt.registerLazySingleton(() => NameValidatorUseCase(_getIt.get()));
   _getIt.registerFactory(() => HomePageViewModel(_getIt.get(), _getIt.get()));
 }
 
@@ -29,7 +34,7 @@ Future<void> _initRemoteConfig() async {
   await remoteConfig.setDefaults(defaultRemoteConfigValues);
 
   try {
-    await remoteConfig.fetch(expiration: const Duration(hours: 12));
+    await remoteConfig.fetch(expiration: const Duration(seconds: 1));
   } catch (e) {
     debugPrint('RemoteConfig failed to fetch. Error: $e');
     rethrow;

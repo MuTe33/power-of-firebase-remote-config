@@ -1,60 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc84f108-b063-47d8-98f0-1bd0341f7d78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/android/app/google-services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/dev/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/dev/res/drawable-v21/launch_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/dev/res/drawable/launch_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/dev/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/dev/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/dev/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/dev/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/dev/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/dev/res/values-night/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/dev/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/dev/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/prod/res/drawable-v21/launch_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/prod/res/drawable/launch_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/prod/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/prod/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/prod/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/prod/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/prod/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/prod/res/values-night/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/prod/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/prod/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/stage/res/drawable-v21/launch_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/stage/res/drawable/launch_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/stage/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/stage/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/stage/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/stage/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/stage/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/stage/res/values-night/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/stage/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/stage/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/data/default_remote_config_values.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/domain/get_remote_config_values.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/domain/name_validator.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ui/home_page_view_model.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ui/widget/new_home_widget.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ui/widget/old_home_widget.dart" afterDir="false" />
+    <list default="true" id="bc84f108-b063-47d8-98f0-1bd0341f7d78" name="Default Changelist" comment="finish working example">
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/prod/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/profile/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/stage/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/main_app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/main_app.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data/remote_config_default_values.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data/remote_config_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/remote_config_repository.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/get_remote_config_values.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/domain/get_remote_config_values_interactor.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/name_validator.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/domain/name_validator_use_case.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/get_it.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/get_it.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main_dev.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main_dev.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main_prod.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main_prod.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main_stage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main_stage.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ui/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/home_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/home_page_view_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/home_page_view_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/widget/new_home_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widget/new_home_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/widget/old_home_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widget/old_home_widget.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +46,7 @@
       <recent name="$PROJECT_DIR$/android/app/src/dev" />
     </key>
   </component>
-  <component name="RunManager" selected="Flutter.main_stage">
+  <component name="RunManager" selected="Flutter.main_prod.dart">
     <configuration name="main_dev" type="FlutterRunConfigurationType" factoryName="Flutter">
       <option name="additionalArgs" value="--dart-define=dev --no-sound-null-safety" />
       <option name="buildFlavor" value="dev" />
@@ -146,38 +105,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="first setup steps" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1512" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618431828074">
+    <state x="-1512" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618507343276">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
-    <state x="-1512" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618431828074" />
+    <state x="-1512" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618507343276" />
     <state x="-1390" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1618343491329">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
     <state x="-1390" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618343491329" />
-    <state x="-1598" y="53" key="CommitChangelistDialog2" timestamp="1618345972911">
+    <state x="-1598" y="53" key="CommitChangelistDialog2" timestamp="1618507323914">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
-    <state x="-1598" y="53" key="CommitChangelistDialog2/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618345972911" />
+    <state x="-1598" y="53" key="CommitChangelistDialog2/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618507323914" />
     <state x="-1818" y="94" key="DiffContextDialog" timestamp="1618342646370">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
     <state x="-1818" y="94" key="DiffContextDialog/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618342646370" />
-    <state width="1724" height="255" key="GridCell.Tab.0.bottom" timestamp="1618435377831">
+    <state width="1278" height="327" key="GridCell.Tab.0.bottom" timestamp="1618508653364">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
-    <state width="1724" height="255" key="GridCell.Tab.0.bottom/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618435377831" />
-    <state width="1724" height="255" key="GridCell.Tab.0.center" timestamp="1618435377831">
+    <state width="1278" height="327" key="GridCell.Tab.0.bottom/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618508653364" />
+    <state width="1278" height="327" key="GridCell.Tab.0.center" timestamp="1618508653364">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
-    <state width="1724" height="255" key="GridCell.Tab.0.center/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618435377831" />
-    <state width="1724" height="255" key="GridCell.Tab.0.left" timestamp="1618435377830">
+    <state width="1278" height="327" key="GridCell.Tab.0.center/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618508653364" />
+    <state width="1278" height="327" key="GridCell.Tab.0.left" timestamp="1618508653363">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
-    <state width="1724" height="255" key="GridCell.Tab.0.left/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618435377830" />
-    <state width="1724" height="255" key="GridCell.Tab.0.right" timestamp="1618435377831">
+    <state width="1278" height="327" key="GridCell.Tab.0.left/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618508653363" />
+    <state width="1278" height="327" key="GridCell.Tab.0.right" timestamp="1618508653364">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
-    <state width="1724" height="255" key="GridCell.Tab.0.right/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618435377831" />
+    <state width="1278" height="327" key="GridCell.Tab.0.right/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618508653364" />
     <state x="-1504" y="271" key="Vcs.Push.Dialog.v2" timestamp="1618345976897">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>

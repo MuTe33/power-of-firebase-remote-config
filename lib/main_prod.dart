@@ -5,8 +5,14 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/widgets.dart';
 import 'package:remote_config_tutorial/app/main_app.dart';
 import 'package:remote_config_tutorial/get_it.dart';
+import 'package:remote_config_tutorial/get_it.dart' as globals;
 
-void main() async {
+void main() {
+  globals.startApp = runProd;
+  runProd();
+}
+
+void runProd() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
 
