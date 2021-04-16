@@ -7,6 +7,7 @@ import 'package:remote_config_tutorial/ui/home_page_view_model.dart';
 import 'package:remote_config_tutorial/ui/widget/new_home_widget.dart';
 import 'package:remote_config_tutorial/ui/widget/old_home_widget.dart';
 
+/// The wiew which is connected with view model
 class HomePage extends StatefulWidget {
   const HomePage({Key? key, required this.appBarTitle}) : super(key: key);
 
@@ -51,12 +52,16 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
+  // depending on remote config value this will give us either the
+  // new home widget or the old home widget
   Widget _buildHomeFeature() {
     return viewModel.isNewHomeEnabledFeature
         ? NewHomeWidget()
         : OldHomeWidget();
   }
 
+  // depending on remote config value this will valid the input
+  // in different ways and will limit the input length
   Widget _buildTextFormField() {
     return Padding(
       padding: EdgeInsets.symmetric(horizontal: 40),
@@ -73,6 +78,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
+  // faster and easier way to reflect changes with a restart than killing the app manually
   Widget _buildRestartButton() {
     return Padding(
       padding: const EdgeInsets.only(

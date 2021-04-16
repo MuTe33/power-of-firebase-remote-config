@@ -1,5 +1,9 @@
 import 'package:remote_config_tutorial/data/remote_config_repository.dart';
 
+/// Business Logic
+///
+/// This class whole purpose is to fetch the regex from repository and valid it.
+/// The GetRemoteConfigValuesInteractor could be split like this for example.
 class NameValidatorUseCase {
   NameValidatorUseCase(this._remoteConfigRepository);
 

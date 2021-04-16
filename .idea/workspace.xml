@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc84f108-b063-47d8-98f0-1bd0341f7d78" name="Default Changelist" comment="finish working example">
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+    <list default="true" id="bc84f108-b063-47d8-98f0-1bd0341f7d78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/domain/get_remote_config_values.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/domain/get_remote_config_values_interactor.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/domain/name_validator.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/domain/name_validator_use_case.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/default_remote_config_values.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/default_remote_config_values.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/remote_config_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/remote_config_repository.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/get_remote_config_values_interactor.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/domain/get_remote_config_values_interactor.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/domain/name_validator_use_case.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/domain/name_validator_use_case.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/get_it.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/get_it.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main_dev.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main_dev.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main_prod.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main_prod.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main_stage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main_stage.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ui/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/home_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ui/home_page_view_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/home_page_view_model.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/widget/new_home_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widget/new_home_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/widget/old_home_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widget/old_home_widget.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,13 +93,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618345973115</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="polish example">
+      <created>1618514462051</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1618514462051</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create project" />
     <MESSAGE value="first setup steps" />
-    <option name="LAST_COMMIT_MESSAGE" value="first setup steps" />
+    <MESSAGE value="polish example" />
+    <option name="LAST_COMMIT_MESSAGE" value="polish example" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1512" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618507343276">
@@ -113,34 +118,34 @@
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
     <state x="-1390" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618343491329" />
-    <state x="-1598" y="53" key="CommitChangelistDialog2" timestamp="1618507323914">
+    <state x="-1598" y="53" key="CommitChangelistDialog2" timestamp="1618514461856">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
-    <state x="-1598" y="53" key="CommitChangelistDialog2/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618507323914" />
+    <state x="-1598" y="53" key="CommitChangelistDialog2/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618514461856" />
     <state x="-1818" y="94" key="DiffContextDialog" timestamp="1618342646370">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
     <state x="-1818" y="94" key="DiffContextDialog/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618342646370" />
-    <state width="1278" height="327" key="GridCell.Tab.0.bottom" timestamp="1618508653364">
+    <state width="1430" height="224" key="GridCell.Tab.0.bottom" timestamp="1618514472413">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
-    <state width="1278" height="327" key="GridCell.Tab.0.bottom/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618508653364" />
-    <state width="1278" height="327" key="GridCell.Tab.0.center" timestamp="1618508653364">
+    <state width="1430" height="224" key="GridCell.Tab.0.bottom/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618514472413" />
+    <state width="1430" height="224" key="GridCell.Tab.0.center" timestamp="1618514472412">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
-    <state width="1278" height="327" key="GridCell.Tab.0.center/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618508653364" />
-    <state width="1278" height="327" key="GridCell.Tab.0.left" timestamp="1618508653363">
+    <state width="1430" height="224" key="GridCell.Tab.0.center/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618514472412" />
+    <state width="1430" height="224" key="GridCell.Tab.0.left" timestamp="1618514472412">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
-    <state width="1278" height="327" key="GridCell.Tab.0.left/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618508653363" />
-    <state width="1278" height="327" key="GridCell.Tab.0.right" timestamp="1618508653364">
+    <state width="1430" height="224" key="GridCell.Tab.0.left/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618514472412" />
+    <state width="1430" height="224" key="GridCell.Tab.0.right" timestamp="1618514472413">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
-    <state width="1278" height="327" key="GridCell.Tab.0.right/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618508653364" />
-    <state x="-1504" y="271" key="Vcs.Push.Dialog.v2" timestamp="1618345976897">
+    <state width="1430" height="224" key="GridCell.Tab.0.right/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618514472413" />
+    <state x="-1504" y="271" key="Vcs.Push.Dialog.v2" timestamp="1618514468278">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>
-    <state x="-1504" y="271" key="Vcs.Push.Dialog.v2/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618345976897" />
+    <state x="-1504" y="271" key="Vcs.Push.Dialog.v2/0.25.1792.1095/-1920.25.1920.1055@-1920.25.1920.1055" timestamp="1618514468278" />
     <state x="-1323" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618345249022">
       <screen x="-1920" y="25" width="1920" height="1055" />
     </state>

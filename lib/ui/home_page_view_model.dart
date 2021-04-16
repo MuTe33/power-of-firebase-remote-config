@@ -2,6 +2,8 @@ import 'package:remote_config_tutorial/app/view_model_base.dart';
 import 'package:remote_config_tutorial/domain/get_remote_config_values_interactor.dart';
 import 'package:remote_config_tutorial/domain/name_validator_use_case.dart';
 
+/// This view model class purpose is to ask for data from domain where all the business logic is happening.
+/// You would here just make the data ready to present it to the view (HomePage)
 class HomePageViewModel extends ViewModel {
   HomePageViewModel(
     this._getRemoteConfigValuesInteractor,
