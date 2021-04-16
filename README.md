@@ -48,7 +48,7 @@ The domain layer is the only one not to have any dependencies. In the cleanest v
 - Finally: Have Fun!
 
 
-#### Hints
+## Hints
 
 - This project only supports Android
 - I did not set up the flavoring for iOS
