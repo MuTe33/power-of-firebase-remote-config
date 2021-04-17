@@ -43,7 +43,7 @@ The domain layer is the only one not to have any dependencies. In the cleanest v
 
 - Fork it
 - Change ApplicationId's (Android) to your defined ID's and/or setup flavoring for iOS
-- Wire up Firebase and update google service json file
+- Wire up Firebase and update google service json file (Don't publish your google service json file like in this project. I will delete the firebase project afterwards anyway, it's only for demonstration purposes)
 - Define Remote Config Values
 - Finally: Have Fun!
 
