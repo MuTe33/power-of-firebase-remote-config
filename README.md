@@ -39,7 +39,7 @@ View --> ViewModel --> Domain <-- Data
 
 The domain layer is the only one not to have any dependencies. In the cleanest variant the domain layer would define an interface for the data layer and the data layer would be an implementation for that. But in this example it was kind of an overkill and I skipped the interface class.
 
-## How to use this project
+## How to use this Project
 
 - Fork it
 - Change ApplicationId's (Android) to your defined ID's and/or setup flavoring for iOS
